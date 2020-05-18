@@ -1,0 +1,4 @@
+xdma                   49152  0
+Loading driver...
+The Kernel module installed correctly and the xmda devices were recognized.
+ DONE

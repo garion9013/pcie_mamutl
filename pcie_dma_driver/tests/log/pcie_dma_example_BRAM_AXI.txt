@@ -1,0 +1,77 @@
+Info: Number of enabled h2c channels = 1
+Info: Number of enabled c2h channels = 1
+Info: The PCIe DMA core is memory mapped.
+Info: Running PCIe DMA memory mapped write read test
+      transfer size:  1024
+      transfer count: 1
+Info: Writing to h2c channel 0 at address offset 0.
+Info: Wait for current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000000
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_h2c_0, address = 0x00000000, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x21cb000
+CLOCK_MONOTONIC reports 0.000064293 seconds (total) for last transfer of 1024 bytes
+Info: Writing to h2c channel 0 at address offset 1024.
+Info: Wait for current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_h2c_0, address = 0x00000400, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x1d5f000
+CLOCK_MONOTONIC reports 0.000029457 seconds (total) for last transfer of 1024 bytes
+Info: Writing to h2c channel 0 at address offset 2048.
+Info: Wait for current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000800
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_h2c_0, address = 0x00000800, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0xf57000
+CLOCK_MONOTONIC reports 0.000058825 seconds (total) for last transfer of 1024 bytes
+Info: Writing to h2c channel 0 at address offset 3072.
+Info: Wait for current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000c00
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_h2c_0, address = 0x00000c00, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0xa5b000
+CLOCK_MONOTONIC reports 0.000029326 seconds (total) for last transfer of 1024 bytes
+Info: Reading from c2h channel 0 at address offset 0.
+Info: Wait for the current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000000
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_c2h_0, address = 0x00000000, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x1cf3000
+CLOCK_MONOTONIC reports 0.000032741 seconds (total) for last transfer of 1024 bytes
+Info: Reading from c2h channel 0 at address offset 1024.
+Info: Wait for the current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_c2h_0, address = 0x00000400, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x2303000
+CLOCK_MONOTONIC reports 0.000040282 seconds (total) for last transfer of 1024 bytes
+Info: Reading from c2h channel 0 at address offset 2048.
+Info: Wait for the current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000800
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_c2h_0, address = 0x00000800, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x1b6d000
+CLOCK_MONOTONIC reports 0.000052009 seconds (total) for last transfer of 1024 bytes
+Info: Reading from c2h channel 0 at address offset 3072.
+Info: Wait for the current transactions to complete.
+sscanf() = 1, value = 0x00000400
+sscanf() = 1, value = 0x00000c00
+sscanf() = 1, value = 0x00000001
+device = /dev/xdma0_c2h_0, address = 0x00000c00, size = 0x00000400, offset = 0x00000000, count = 1
+host memory buffer = 0x7d7000
+CLOCK_MONOTONIC reports 0.000056655 seconds (total) for last transfer of 1024 bytes
+Info: Checking data integrity.
+Info: Data check passed for address range 0 - 1024.
+Info: Data check passed for address range 1024 - 2048.
+Info: Data check passed for address range 2048 - 3072.
+Info: Data check passed for address range 3072 - 4096.
+Info: All PCIe DMA memory mapped tests passed.
+Info: All tests in run_tests.sh passed.

@@ -1,0 +1,2 @@
+/home/arc-yhlinux/SSH_workspace/fpga_offloading_matmul/pcie_dma_driver/driver/xdma.ko
+/home/arc-yhlinux/SSH_workspace/fpga_offloading_matmul/pcie_dma_driver/driver/xdma-core.o /home/arc-yhlinux/SSH_workspace/fpga_offloading_matmul/pcie_dma_driver/driver/xdma-sgm.o /home/arc-yhlinux/SSH_workspace/fpga_offloading_matmul/pcie_dma_driver/driver/xdma-ioctl.o /home/arc-yhlinux/SSH_workspace/fpga_offloading_matmul/pcie_dma_driver/driver/xdma-bit.o
